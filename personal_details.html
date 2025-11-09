@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information Form</title>
+</head>
+<body>
+    <center>
+    <table style="background-color: brown;" border="1">
+        <tr>
+            <td>
+                <form>
+                    <fieldset style="border:3px solid rgb(81, 4, 4); background-color:#ffe6e6; padding:15px; width:320px;">
+                        <legend style="background-color: aqua;">Personal Details</legend>
+                        <label>First Name:</label>
+                        <input type="text" name="firstname"><br><br>
+                        <label>Last Name:</label>
+                        <input type="text" name="lastname"><br><br>
+                        <label>Gender:</label>
+                        <input type="radio" name="Gender" value="male"> Male
+                        <input type="radio" name="Gender" value="female"> Female<br><br>
+                        <label>Date of Birth:</label>
+                        <input type="date" name="dob"><br><br>
+                        <label>Preferred Color:</label>
+                        <input type="color" name="color"><br><br>
+                    </fieldset>
+                    <br>
+                    <fieldset style="border:3px solid blue; background-color:#e6ecff; padding:15px; width:320px;">
+                        <legend style="background-color: aqua;">Contact Details</legend>
+                        <label>Country:</label>
+                        <input type="text" name="country"><br><br>
+                        <label>State:</label>
+                        <input type="text" name="state"><br><br>
+                        <label>Address:</label>
+                        <input type="text" name="address"><br><br>
+                    </fieldset>
+                    <br>
+                    <fieldset style="border:3px solid green; background-color:#e6ffe6; padding:15px; width:320px;">
+                        <legend style="background-color: aqua;">Contact Details Digital</legend>
+                        <label>Email:</label>
+                        <input type="text" name="email"><br><br>
+                        <label>Phone:</label>
+                        <select name="countryCode">
+                            <option>+880 Bangladesh</option>
+                            <option>+1 USA</option>
+                            <option>+91 India</option>
+                            <option>+44 UK</option>
+                            <option>+81 Japan</option>
+                            <option>+86 China</option>
+                            <option>+33 France</option>
+                            <option>+49 Germany</option>
+                            <option>+39 Italy</option>
+                            <option>+7 Russia</option>
+                            <option>+55 Brazil</option>
+                            <option>+234 Nigeria</option>
+                            <option>+27 South Africa</option>
+                            <option>+34 Spain</option>
+                            <option>+32 Belgium</option>
+                            <option>+31 Netherlands</option>
+                            <option>+46 Sweden</option>
+                            <option>+47 Norway</option>
+                            <option>+48 Poland</option>
+                            <option>+351 Portugal</option>
+                            <option>+43 Austria</option>
+                            <option>+60 Malaysia</option>
+                            <option>+52 Mexico</option>
+                            <option>+92 Pakistan</option>
+                            <option>+62 Indonesia</option>
+                        </select>
+                        <input type="text" name="phone" placeholder="Enter number"><br><br>
+                    </fieldset>
+                    <br>
+                    <fieldset style="border:3px solid purple; background-color:#ffe6ff; padding:15px; width:320px;">
+                        <legend style="background-color: aqua;">Bio</legend>
+                        <label style="background-color: blueviolet;">Write something about yourself:</label><br>
+                        <textarea style="background-color: deepskyblue;" name="bio" rows="4" cols="40"></textarea><br><br>
+                    </fieldset>
+                    <br>
+                    <center>
+                        <input style="background-color: chartreuse;" type="submit" value="Finish">
+                    </center>
+                </form>
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
