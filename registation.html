@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form  action="wsz.php" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <!-- General Information -->
+            <td valign="top">
+                <h3>General Information</h3>
+                <table>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="lname"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name:</td>
+                        <td>
+                            <input type="text" name="father">
+                            &nbsp;&nbsp;
+                            <input type="file" name="profile_file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Name:</td>
+                        <td><input type="text" name="mother"></td>
+                    </tr>
+                    <tr>
+                        <td>Blood Group:</td>
+                        <td>
+                            <select name="blood">
+                                <option>A+</option>
+                                <option>B+</option>
+                                <option>O+</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Religion:</td>
+                        <td>
+                            <select name="religion">
+                                <option>Islam</option>
+                                <option>Hindu</option>
+                                <option>Christian</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Register"></td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Contact Information -->
+            <td valign="top">
+                <h3>Contact Information</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="text" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Website:</td>
+                        <td><input type="text" name="website"></td>
+                    </tr>
+                    <tr>
+                             <td> present  aaddress</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <select name="country" id="country">
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Pakistan</option>
+                        <option>Bhutan</option>
+                        <option>Indonesia</option>
+                        <option>Sri Lanka</option>
+                        <option>Afghanistan</option>
+                    </select>
+                    
+                            <select name="country" id="country">
+                        <option>Dhaka</option>
+                        <option>Chittagong</option>
+                        <option>Barisal</option>
+                        <option>Maymensingh</option>
+                        <option>Sylhet</option>
+                        <option>Rangpur</option>
+                        <option>Khulna</option>
+                        <option>Jessore</option>
+                    </select><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Present Address:</td>
+                        <td><textarea name="address" rows="4" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="text" name="postalcode" id="postalcode" placeholder="Post Code">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Account Information -->
+            <td valign="top">
+                <h3>Account Information</h3>
+                <table>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td><input type="password" name="confirm_password"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
